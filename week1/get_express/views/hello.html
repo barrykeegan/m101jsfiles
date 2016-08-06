@@ -1,0 +1,9 @@
+<h1>Hello, {{name}}, here are your GET variables:</h1>
+<ul>
+  {% for key, value in getvars %}
+    {% if getvars.hasOwnProperty(key) %}
+      <li>{{key}} -> {{value}}</li>
+    {% endif %}
+  {% endfor %}
+
+</ul>
