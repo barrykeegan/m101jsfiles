@@ -17,3 +17,7 @@
 ###############
 node_modules/
 __MACOSX
+
+# Personal Stuff #
+# ################
+*.env
